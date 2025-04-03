@@ -2,7 +2,7 @@ version: '3'
 services:
   app:
     build: .  # Construye la imagen desde el Dockerfile en la carpeta actual
-    container_name: partyapp  # nombre fijo para el contenedor
+    container_name: partyApp  # nombre fijo para el contenedor
     ports:
       - "8081:8081"
       - "19000:19000"
